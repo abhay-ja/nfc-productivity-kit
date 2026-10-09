@@ -1,102 +1,97 @@
 # NFC Productivity Kit
 ### Keeping Up With Non-Academic Learning Goals
 
-A student-focused productivity concept exploring how NFC tags and a companion web experience can make it easier to return to non-academic learning goals and healthy routines.
+A student-focused product concept exploring how NFC tags and a web dashboard can reduce friction when starting non-academic learning routines.
 
-> **Project type:** Student product concept and prototype  
-> **Focus areas:** Problem discovery, user-centered design, validation, prototyping, and iteration  
-> **Status:** Concept/prototype; not a fully finished or production-ready product
+> **Project type:** Design Thinking II team project  
+> **My role:** Team lead; led the overall process and drove the initial prototype phase  
+> **Status:** Early prototype, not a production-ready product
 
 ## The problem
 
-Students often have goals outside coursework—such as reading, learning a skill, exercising, or building a personal project—but find it difficult to stay consistent. These goals can be pushed aside by academic deadlines, distractions, and the effort needed to decide what to do next.
+Students may have goals outside coursework—such as reading, learning a skill, or building a personal project—but distractions and the effort of opening and organizing tools can make it harder to get started consistently.
 
-This project explores a simple question:
+Our guiding question was:
 
-**Can a small physical cue, paired with a focused digital experience, make it easier for students to take the next step toward a personal learning goal?**
+**How might we help users instantly access their daily productivity tools in a way that is fast, intuitive, and physically engaging?**
 
-This is a design hypothesis, not a claim that the concept has already solved the problem for all students.
+## The solution
 
-## The product idea
+The NFC Productivity Kit connects a physical tap with a web-based productivity dashboard. The prototype included:
 
-The concept combines NFC stickers/tags with a companion web experience. A student can associate a tag with a useful action or destination, then tap a compatible phone to reach that experience with less friction.
+- Two NTAG215 NFC tags/keychains programmed to open the dashboard URL
+- 3D-printed cases for the physical tags
+- A printed user guide with setup instructions and a QR code
+- A dashboard with a to-do list, simple Pomodoro timer, quick-access links, and a time-of-day greeting
 
-Possible experiences explored for the concept include:
+The aim was to explore a lightweight shortcut into a productivity routine—not to claim that NFC can independently block apps or control every phone setting.
 
-- Opening a chosen learning resource or planning tool
-- Starting a focused work session, such as a Pomodoro-style timer
-- Viewing a simple to-do list or schedule
-- Seeing a motivational prompt or checking in on a goal
+## Product process
 
-These are concept directions; availability and behavior depend on the implementation, phone settings, and prototype limitations.
+1. **Problem exploration:** Framed the challenge around consistency and friction when accessing productivity tools.
+2. **Initial concept and prototype:** Led the initial phase and drove early product and prototyping work.
+3. **Physical prototype:** Designed and 3D-printed the tag cases and helped connect the physical interaction to the dashboard.
+4. **Testing and iteration:** As team lead, led the overall process, including user testing, gathering feedback, and using it to identify improvements.
+5. **Second website phase:** A teammate made a significant contribution by developing the second version of the website. I did not build Website 2, and this case study does not claim that I independently implemented the whole website.
 
-## Intended users
+## Testing and feedback
 
-The initial audience is students who want to make progress on non-academic learning goals while balancing college work and everyday distractions.
+The submitted project report records these before-and-after measures:
 
-Potential use cases include:
-- A student starting a short focused study or skill-practice session
-- Someone trying to build a consistent reading or personal-project habit
-- A student who wants a physical reminder linked to a digital routine
+| Measure | Before | After |
+|---|---:|---:|
+| User satisfaction | 3.2/5 | 3.8/5 |
+| Ease of use | 4.0/5 | 4.3/5 |
+| Would recommend | 40% | 45% |
 
-## Product development approach
+The report also records that 80% of testers preferred the physical shortcut to opening browser bookmarks. These findings came from a small testing effort and should be treated as early feedback, not proof of broad market demand or long-term impact.
 
-The project was approached as a product-design problem, not only as a hardware or website exercise.
+### What we learned from testing
 
-1. **Identify the problem:** Explore challenges around consistency, focus, and non-academic learning goals.
-2. **Explore a solution:** Consider how NFC tags could connect a physical action with a relevant digital workflow.
-3. **Prototype:** Develop the concept through a physical prototype and a companion web experience.
-4. **Validate and learn:** Use a landing page, waitlist, student testing, and feedback to explore interest and identify improvements.
-5. **Iterate:** Use observations and feedback to guide future changes rather than assuming the first version is the final solution.
+- The to-do list and timer worked consistently in the tested prototype.
+- The NFC tap provided a direct route to the dashboard.
+- App Blocker remained a placeholder/nonfunctional feature.
+- Focus Mode did not reliably stop notifications or distractions.
+- Reliability, usability, and repeat-use behavior need further testing.
 
-## Validation and feedback
+## My contribution and team roles
 
-The validation activities included a landing page and waitlist, followed by feedback from student testers. The project also included a later round of five user tests to collect responses and identify improvements.
+I served as **team lead** and led the overall project process, including problem exploration, product direction, coordinating work, user testing, gathering and interpreting feedback, and guiding improvements.
 
-- Initial validation plan/activity: landing page, waitlist, and testing with 10 students.
-- Follow-up feedback round: five user tests.
-- Reported testing/validation spend: ₹0.
+My direct implementation work was concentrated in the **initial prototype phase**. I also designed and 3D-printed the physical prototype. A teammate made a substantial contribution by developing the **second version of the website (Website 2)**, and other team members contributed to specific parts of the project.
 
-These activities provided early feedback, not proof of broad market demand or long-term behavior change. The sample sizes were small, so further testing would be needed before drawing stronger conclusions.
+This distinction is important: my role was to lead the process and drive the early product/prototyping work, while crediting the teammate responsible for the second website phase.
 
-## My contribution
+## Technology and materials
 
-I initiated and primarily drove the project, including problem exploration, product direction, design, validation activities, and prototyping. I also designed and 3D-printed the physical prototype.
+- **Dashboard:** HTML, CSS, JavaScript
+- **NFC:** NTAG215 tags programmed using the NFC Tools app
+- **Physical prototype:** 3D-printed tag cases
+- **Dashboard hosting:** Netlify, as described in the project report
 
-The work was completed in a four-person team, with teammates contributing to specific aspects. The companion website's current implementation involved a teammate, so this repository does not claim that I independently built every part of the current website.
+## Limitations
 
-## Prototype and limitations
-
-The prototype helped explore how a physical NFC interaction could connect to a digital productivity workflow. It should be treated as an early prototype rather than a polished, production-ready product.
-
-Known areas for further work include:
-- Making the core workflow reliable across supported phones and browsers
-- Improving or replacing features that did not work consistently in the prototype, including app-blocking/focus-mode behavior
-- Testing whether users return to the experience over time, not only during a short demo
-- Making the to-do, schedule, timer, and goal-tracking experience clearer and more useful
-- Improving accessibility, usability, and the overall visual design
-
-NFC tags alone cannot guarantee that notifications are muted or that other apps are blocked; those behaviors depend on device operating-system permissions and available integrations.
+- An internet connection was required to access the hosted dashboard.
+- NFC behavior and redirects can vary by phone and browser.
+- App Blocker was not functional, and Focus Mode did not reliably mute notifications or prevent distractions.
+- Persistent data saving, offline support, and a full progressive web app experience were not implemented in the prototype.
+- More testing is needed to determine whether the product helps students maintain routines over time.
 
 ## What I learned
 
-- A product should start with a specific user problem and a testable hypothesis.
-- A prototype is useful for learning, but it should not be presented as a finished solution.
-- Early user feedback can reveal friction and assumptions that need to be revisited.
-- Product work includes understanding users, defining workflows, deciding what to build, testing ideas, and communicating limitations—not just implementation.
+- Product leadership means keeping the team focused on the user problem, coordinating work, and guiding trade-offs—not just building features.
+- Testing early helps distinguish working functionality from features that only look convincing in a demo.
+- Small samples can guide iteration, but they do not establish product-market fit.
+- Team contributions should be described accurately: leading the process, building an initial prototype, and developing a later website version are distinct responsibilities.
 
-## Possible next steps
+## Potential next steps
 
-1. Define one primary student use case and the most important outcome to measure.
-2. Run more structured usability tests and document recurring pain points.
-3. Improve the reliability of the main NFC-to-web workflow.
-4. Measure repeat use and whether the product helps users follow through on their goals.
-5. Prioritize future features based on evidence rather than adding features for their own sake.
-
-## Project note
-
-This README documents the concept, the work completed so far, and the current limitations. It is not a claim that every proposed feature is implemented or that the product has demonstrated long-term impact.
+1. Improve the reliability of the NFC-to-dashboard journey.
+2. Fix or remove nonfunctional focus and app-blocking features until a feasible implementation is available.
+3. Test with a wider and more varied group of students.
+4. Measure repeat use and whether users follow through on their goals.
+5. Prioritize future features based on observed user needs.
 
 ---
 
-*Built around a simple product principle: understand the problem, test the idea, and improve from feedback.*
+*This README documents the concept, prototype, feedback, individual contribution, team collaboration, and known limitations. Proposed or incomplete features are not presented as working functionality.*
