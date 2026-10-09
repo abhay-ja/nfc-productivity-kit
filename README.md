@@ -7,6 +7,30 @@ A student-focused product concept exploring how NFC tags and a web dashboard can
 > **My role:** Team lead; led the overall process and drove the initial prototype phase  
 > **Status:** Early prototype, not a production-ready product
 
+## Prototype gallery
+
+These photos document the physical build, 3D-printing process, and assembled NFC kit.
+
+### Finished NFC kit
+![Finished NFC keychains with the printed user manual](NFC%20product.jpeg)
+
+*The assembled prototype, including the NFC keychains and user instructions.*
+
+### 3D-printing the components
+![3D printer producing the prototype components](WhatsApp%20Image%202026-10-09%20at%207.17.47%20PM.jpeg)
+
+*The physical components being produced for the prototype.*
+
+### Individual NFC keychain
+![Close-up of an individual 3D-printed NFC keychain](WhatsApp%20Image%202026-10-09%20at%207.17.46%20PM.jpeg)
+
+*A close-up view of the finished keychain casing.*
+
+### Printed prototype pieces
+![Printed prototype pieces before assembly](dt%20prototype%20pic.jpeg)
+
+*Printed pieces shown before final assembly.*
+
 ## The problem
 
 Students may have goals outside coursework—such as reading, learning a skill, or building a personal project—but distractions and the effort of opening and organizing tools can make it harder to get started consistently.
