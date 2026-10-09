@@ -26,11 +26,6 @@ These photos document the physical build, 3D-printing process, and assembled NFC
 
 *A close-up view of the finished keychain casing.*
 
-### Printed prototype pieces
-![Printed prototype pieces before assembly](dt%20prototype%20pic.jpeg)
-
-*Printed pieces shown before final assembly.*
-
 ## The problem
 
 Students may have goals outside coursework—such as reading, learning a skill, or building a personal project—but distractions and the effort of opening and organizing tools can make it harder to get started consistently.
